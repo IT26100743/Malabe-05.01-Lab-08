@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class IT26100743Lab8Q4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] studentsArray = new int[8];
+        int studentsArray[] = new int[8];
         int count = 0;
 
         while (count < 8) {
