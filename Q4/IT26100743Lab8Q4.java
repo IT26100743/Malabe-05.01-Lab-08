@@ -24,8 +24,8 @@ public class IT26100743Lab8Q4 {
         int searchId = sc.nextInt();
 
         boolean found = false;
-        for (int id : studentsArray) {
-            if (id == searchId) {
+        for (int id = 0; id < 8; id++) {
+            if (studentsArray[id] == searchId) {
                 found = true;
                 break;
             }
